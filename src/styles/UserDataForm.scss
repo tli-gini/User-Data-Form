@@ -122,6 +122,7 @@ select.error-input {
 @media (min-width: 360px) and (max-width: 480px) {
   .user-data-form {
     min-width: 100vw;
+    min-height: 100vh;
     border-radius: 0px;
 
     .label-container {
@@ -134,6 +135,7 @@ select.error-input {
 @media (min-width: 480px) and (max-width: 710px) {
   .user-data-form {
     min-width: 90vw;
+    min-height: 100vh;
     border-radius: 0px;
     padding: 30px;
 

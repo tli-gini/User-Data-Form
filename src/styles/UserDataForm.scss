@@ -118,3 +118,28 @@ input.error-input,
 select.error-input {
   border-color: red;
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .user-data-form {
+    min-width: 100vw;
+    border-radius: 0px;
+
+    .label-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 710px) {
+  .user-data-form {
+    min-width: 90vw;
+    border-radius: 0px;
+    padding: 30px;
+
+    .label-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
